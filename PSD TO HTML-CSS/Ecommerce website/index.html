@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar  -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="This is a logo">
+                </div>
+            </div>
+            <nav>
+                <ul id="menuItem">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+                <img src="./images/cart.png" alt="" class="cart">
+                <img src="./images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </nav>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>GIVE YOUR WORKOUT <br> A NEW STYLE</h1>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam, alias minus esse
+                        corrupti
+                        earum!</P>
+                    <a href="" class="btn">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
+
+                </div>
+                <div class="col-2">
+                    <img src="./images/image1.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories  -->
+
+    <div class="categories">
+        <div class="smallcontainer">
+            <div class="row">
+
+                <div class="col-3">
+                    <img src="./images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-3.jpg" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Products  -->
+
+    <div class="smallcontainer">
+        <h2 class="Title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-1.jpg" alt="">
+                <h4>Red printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-2.jpg" alt="">
+                <h4>Men BOSS-Rider Black Shoes</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-3.jpg" alt="">
+                <h4>Men's Regular Casual Pants</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-4.jpg" alt="">
+                <h4>Blue printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$90.00</p>
+            </div>
+        </div>
+
+
+        <h2 class="Title">Latest Products</h2>
+        <div class="row">
+
+            <div class="col-4">
+                <img src="./images/product-5.jpg" alt="">
+                <h4>Men's Sports Running,</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-6.jpg" alt="">
+                <h4>Puma Men T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-7.jpg" alt="">
+                <h4> Socks For Men</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-8.jpg" alt="">
+                <h4> Watch for Men </h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-9.jpg" alt="">
+                <h4> Smart Watch </h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-10.jpg" alt="">
+                <h4> Shoe for Men</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-11.jpg" alt="">
+                <h4>Men's Regular Casual shoe</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-12.jpg" alt="">
+                <h4>Men Track Pants</h4>
+                <div class="rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Offer Products -->
+
+    <div class="offer">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/exclusive.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available </p>
+                    <h1>smart watch </h1>
+                    <p>Smart Bundles ! Up to 70% Off · Sign In · Sign Up. Wearable. Popularity. Filters ... Mi Watch
+                        Revolve Charging Dock</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- brands -->
+
+    <div class="brands">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-philips.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-white.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer  -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and Ios mobile phone </p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo-white.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolores! </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>useful Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post </li>
+                        <li>Return policy </li>
+                        <li>join</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us </h3>
+                    <ul>
+                        <li>facebook</li>
+                        <li>x </li>
+                        <li>instagram </li>
+                        <li>Linkedin</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - kaushik vaniya</p>
+        </div>
+    </footer>
+
+    <!-- Js for toggle Button  -->
+
+    <script>
+        let menuItems = document.getElementById("menuItem");
+
+        function menutoggle() {
+            if (menuItems.style.display == "none") {
+                menuItems.style.display = "block"
+
+            }
+            else {
+
+                menuItems.style.display = "none"
+
+            }
+
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
