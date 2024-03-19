@@ -12,7 +12,7 @@ This JavaScript project collection comprises four standalone applications: a cal
 
 • JavaScript functions handle the logic for performing the mathematical calculations based on user inputs.
 
-### `Calculator:`
+### `calendar :`
 
 • The calendar application provides users with a graphical representation of dates, days, and months.
 
