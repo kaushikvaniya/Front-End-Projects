@@ -1,4 +1,4 @@
-### `Calculator:`
+### `Calculator 💫 :`
 
 • The calculator application allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
