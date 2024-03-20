@@ -7,6 +7,7 @@
 • JavaScript functions handle the logic for performing the mathematical calculations based on user inputs.
 
 
-![Screenshot 2024-03-20 100329](https://github.com/kaushikvaniya/Front-End-Projects/assets/141440190/2a2d07e3-234f-43e3-a8ee-a89b241d38ed)
+![image (2)](https://github.com/kaushikvaniya/Front-End-Projects/assets/141440190/6539071a-431a-4fd6-b67a-4246235cd39e)
+
 
 
