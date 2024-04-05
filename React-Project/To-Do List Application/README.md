@@ -1,4 +1,4 @@
-# Project Title: To-Do List App
+# Project Title: To-Do List App ✨
 
 TaskMaster is a sleek and intuitive to-do list application designed to help users manage their tasks efficiently. Built using React for its dynamic user interface, Tailwind CSS for effortless styling, and React Icons for a comprehensive set of icons, TaskMaster offers a seamless experience for organizing your daily tasks.
 
